@@ -1,0 +1,20 @@
+.companyitem{
+    width: 350px;
+    margin-top: 20px;
+}
+
+.companyitem button{
+    width: 400px;
+    height: 70px;
+    border-radius: 35px;
+    background: white;
+    border: 2px solid #707070;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+button:active{
+    background: #f3f3f3;
+    color: #707070;
+    
+}

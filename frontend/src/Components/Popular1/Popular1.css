@@ -1,0 +1,36 @@
+.popular1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    margin: 0%;
+    padding: 0%;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.popular1 h1 {
+    color: #555555;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+.popular1 hr {
+    width: 96%;
+    height: 0;
+    border: none;
+    border-top: 1px solid #707070;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.popular-item {
+    display: flex;
+    gap: 60px;
+}

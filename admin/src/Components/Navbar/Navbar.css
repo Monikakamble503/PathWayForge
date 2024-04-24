@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+    margin: 0%;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    width: auto;
+    position: relative;
+    right: 190px
+}
+
+.nav-logo img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.adminlogo img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.adminlogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    width: auto;
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+    gap: 10px;
+}

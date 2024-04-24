@@ -1,0 +1,16 @@
+.popular2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 190vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    margin: 0%;
+    padding-right: 10%;
+
+}
+
+.popular2-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

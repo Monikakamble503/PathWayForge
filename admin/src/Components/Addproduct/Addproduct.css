@@ -1,0 +1,50 @@
+.addproduct {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 8px 20px;
+    border-radius: 6px;
+    background: white;
+}
+
+.addproduct-itemfields {
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 16px;
+}
+
+.addproduct-itemfields input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-family: "Poppins";
+    font-size: 14px;
+
+}
+
+.addproduct-options input {
+    margin-bottom: 5px;
+}
+
+.addproduct-itemfields p {
+    color: rgb(15, 9, 45);
+}
+
+.addproduct-btn {
+    margin-top: 20px;
+    width: 160px;
+    border-radius: 6px;
+    height: 50px;
+    background: #6079ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}

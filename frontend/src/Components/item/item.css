@@ -1,0 +1,37 @@
+.item{
+    width: 350px;
+    margin-top: 20px;
+}
+
+.item p{
+    margin: 6px 0px;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+#images{
+    height: 45vh;
+    width: 300px;
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    border-radius: 35px;
+    background: linear-gradient(180deg, #edc8ed, #bddfc822 60%);
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    left: 70px;
+    margin-top: 9px;
+}
+
+button:active{
+    background: #f3f3f3;
+    color: blue;
+}

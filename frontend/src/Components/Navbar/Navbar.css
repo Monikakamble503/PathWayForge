@@ -1,0 +1,134 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+    margin: 0%;
+    align-items: center;
+    /* position: fixed; */
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px; 
+    width: auto; 
+    position: relative;
+    right: 140px
+}
+
+.nav-logo img {
+    max-width: 50px; 
+    max-height: 50px; 
+}
+
+.nav-logo p{
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu li:active{
+    background: #f3f3f3;
+}
+
+.nav-dropdown{
+    display: none;
+}
+
+.nav-dropdown{
+    height: 40px;
+    position: relative;
+    top: 7px;
+}
+
+@media(max-width:1280px){
+    .navbar{
+        padding: 12px 50px;
+    }
+    .nav-logo img{
+        width: 40px;
+    }
+    .nav-logo p{
+        font-size: 25px;
+    }
+    .nav-menu{
+        gap: 30px;
+        font-size: 15px;
+    }
+}
+@media(max-width:1024px){
+    .navbar{
+        padding: 12px 30px;
+    }
+    .nav-logo img{
+        width: 30px;
+    }
+    .nav-logo p{
+        font-size: 20px;
+    }
+    .nav-menu{
+        gap: 25px;
+        font-size: 12px;
+    }
+}
+@media(max-width:800px){
+    .navbar{
+        padding: 10px 5px;
+    }
+    .nav-dropdown{
+        display: block;
+        font-size: 12px;
+        transition: 0.5s;
+    }
+    .nav-logo img{
+        width: 20px;
+    }
+    .nav-logo p{
+        font-size: 20px;
+    }
+    .nav-menu{
+        display: none;
+        height: 80px;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        justify-content: center;
+        top: 50px;
+    }
+    .nav-menu-visible{
+        display: flex;
+    }
+}
+@media(max-width:500px){
+    .navbar{
+        padding: 8px 5px;
+        gap: 0px;
+    }
+    .nav-logo{
+        transform: scale(0.7);
+    }
+    .nav-menu{
+        height: 70px;
+        top: 50px;
+    }
+}
